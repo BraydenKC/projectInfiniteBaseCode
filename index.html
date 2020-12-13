@@ -8,8 +8,8 @@
     <a-scene>
         <a-assets>
             <a-asset-item
-                id="gun"
-                src="models/out.glb">
+                id="engine"
+                src="models/engineTest.glb">
             </a-asset-item>
             <img id="sky" src="Images/360S2.jpeg">
         </a-assets>
@@ -46,10 +46,9 @@
         </a-plane>
         
         <a-gltf-model
-            gltf-model="#gun"
+            gltf-model="#engine"
             scale="0.01 0.01 0.01"
             position="0 .5 -10"
-            animation-mixer="clip: "
             
         > </a-gltf-model>
         <a-box
